@@ -48,16 +48,6 @@
 			path = SwiftyHalloween;
 			sourceTree = "<group>";
 		};
-		902A4B602CB467430058F288 /* SwiftyHalloweenTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftyHalloweenTests;
-			sourceTree = "<group>";
-		};
-		902A4B6A2CB467430058F288 /* SwiftyHalloweenUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftyHalloweenUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				902A4B4F2CB467400058F288 /* SwiftyHalloween */,
-				902A4B602CB467430058F288 /* SwiftyHalloweenTests */,
-				902A4B6A2CB467430058F288 /* SwiftyHalloweenUITests */,
 				902A4B4E2CB467400058F288 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,9 +131,6 @@
 			dependencies = (
 				902A4B5F2CB467430058F288 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				902A4B602CB467430058F288 /* SwiftyHalloweenTests */,
-			);
 			name = SwiftyHalloweenTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +150,6 @@
 			);
 			dependencies = (
 				902A4B692CB467430058F288 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				902A4B6A2CB467430058F288 /* SwiftyHalloweenUITests */,
 			);
 			name = SwiftyHalloweenUITests;
 			packageProductDependencies = (
